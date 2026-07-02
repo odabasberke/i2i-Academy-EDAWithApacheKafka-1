@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.i2iacademy</groupId>
+    <artifactId>kafka-homework</artifactId>
+    <version>1.0</version>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <!-- Kafka ile konuşmayı sağlayan resmi kütüphane -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>3.7.0</version>
+        </dependency>
+        <!-- Java objelerini JSON'a çevirmek için -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.17.0</version>
+        </dependency>
+    </dependencies>
+</project>
